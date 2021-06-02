@@ -1,0 +1,36 @@
+#add-button{
+    height: 50px;
+    width: 200px;
+    margin: auto;
+    }
+#add-button button{
+    background-color:lightgray;
+    height: inherit;
+    width: inherit;
+}
+/* For Basket */
+
+
+#basket{
+    height: auto;
+    min-height: 100px;
+    width: 100%;
+    background-color:lightcyan;
+
+    border:2px solid lightgray;
+    border-top:none;
+    margin-top: 100px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+/* For Ball */
+
+.ball{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: brown;
+    display: inline-block;
+}
